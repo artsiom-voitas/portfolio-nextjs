@@ -2,8 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 
-function NavLink(props) {
-    const { href, title } = props;
+function NavLink({ href, title }) {
     const router = useRouter();
     return (
         <Link

@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import Logo from './Logo';
 import NavLink from './NavLink';
+import TwitterIcon from '../icons/TwitterIcon';
 
 function NavBar() {
     return (
-        <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+        <header className="flex w-full items-center justify-between px-32 py-8 font-medium">
             <nav className="flex justify-between gap-8">
                 <NavLink
                     href="/"
@@ -29,9 +30,7 @@ function NavBar() {
             <nav>
                 <Link
                     href="/"
-                    target={'_blank'}>
-                    T
-                </Link>
+                    target={'_blank'}></Link>
                 <Link
                     href="/"
                     target={'_blank'}>
