@@ -1,5 +1,5 @@
 import NavBar from '@/components/NavBar';
-import '@/styles/globals.css';
+import '../assets/styles/globals.css';
 import { Montserrat } from 'next/font/google';
 
 const montserrat = Montserrat({
