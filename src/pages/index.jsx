@@ -1,3 +1,4 @@
+import HireMe from '@/components/HireMe';
 import Home from '@/components/Home';
 import Layout from '@/components/Layout/Layout';
 import Head from 'next/head';
@@ -16,6 +17,7 @@ export default function Index() {
                 <Layout>
                     <Home />
                 </Layout>
+                <HireMe />
             </main>
         </>
     );

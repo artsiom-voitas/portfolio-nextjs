@@ -10,7 +10,7 @@ function Layout({ children, className = '' }) {
 }
 
 Layout.propTypes = {
-    children: PropTypes.element,
+    children: PropTypes.node,
     className: PropTypes.string
 };
 

@@ -1,10 +1,9 @@
+import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import { useId } from 'react';
-import { motion } from 'framer-motion';
 import { quoteAnimationVariant, wordAnimationVariant } from './animationVariants';
 
 function AnimatedText({ text, className = '' }) {
-    const wordId = useId();
     return (
         <div
             className={
@@ -15,9 +14,9 @@ function AnimatedText({ text, className = '' }) {
                 variants={quoteAnimationVariant}
                 initial="initial"
                 animate="animate">
-                {text.split(' ').map((word) => (
+                {text.split(' ').map((word, index) => (
                     <motion.span
-                        key={wordId}
+                        key={index}
                         className="inline-block"
                         variants={wordAnimationVariant}>
                         {word}&nbsp;
