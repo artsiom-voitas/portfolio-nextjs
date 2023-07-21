@@ -5,7 +5,7 @@ function Footer() {
     const currentYear = new Date().getFullYear();
     return (
         <footer className="w-full border-t-2 border-solid border-dark text-lg font-medium">
-            <Layout className="mt-2 flex items-center justify-between py-8">
+            <Layout className="mt-2 flex items-center justify-between !py-8">
                 <span>{currentYear} &copy; All Rights Reserved.</span>
                 <div className="flex items-center">
                     Build With

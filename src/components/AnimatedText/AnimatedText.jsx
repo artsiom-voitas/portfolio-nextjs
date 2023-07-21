@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
-import { useId } from 'react';
 import { quoteAnimationVariant, wordAnimationVariant } from './animationVariants';
 
 function AnimatedText({ text, className = '' }) {
