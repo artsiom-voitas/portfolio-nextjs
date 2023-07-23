@@ -9,7 +9,8 @@ function Skill({ title, x, y, className = '' }) {
             whileHover={{ scale: 1.1 }}
             initial={{ x: 0, y: 0 }}
             whileInView={{ x: x, y: y }}
-            transition={{ duration: 1.5 }}>
+            transition={{ duration: 1.5 }}
+            viewport={{ once: true }}>
             {title}
         </motion.div>
     );

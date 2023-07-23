@@ -1,7 +1,9 @@
 import AnimatedText from '../AnimatedText';
+import Education from '../Education';
 import Layout from '../Layout';
+import WorkExperience from '../WorkExperience';
 import Biography from './Biography';
-import Skills from './Skills/Skills';
+import Skills from './Skills';
 
 function AboutMe() {
     return (
@@ -13,6 +15,8 @@ function AboutMe() {
                 />
                 <Biography />
                 <Skills />
+                <WorkExperience />
+                <Education />
             </Layout>
         </main>
     );
