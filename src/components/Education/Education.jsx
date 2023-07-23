@@ -10,7 +10,7 @@ function Education() {
     });
     return (
         <div className="my-64">
-            <h2 className="mb-32 w-full text-center text-8xl font-bold">Experience</h2>
+            <h2 className="mb-32 w-full text-center text-8xl font-bold">Education</h2>
             <div
                 ref={ref}
                 className="relative mx-auto w-[75%]">
