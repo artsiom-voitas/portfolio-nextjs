@@ -4,6 +4,7 @@ import AnimatedText from '../AnimatedText';
 import Link from 'next/link';
 import reactImg from '../../assets/images/react-js.png';
 import { LinkArrow } from '../icons';
+import HireButton from './HireButton/HireButton';
 
 const MotionImage = motion(Image);
 
@@ -47,6 +48,7 @@ function Home() {
                     </Link>
                 </div>
             </div>
+            <HireButton />
         </div>
     );
 }

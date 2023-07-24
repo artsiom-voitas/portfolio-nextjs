@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { CircularText } from '../icons';
+import { CircularText } from '../../icons';
 
-function HireMe() {
+function HireButton() {
     return (
         <div className="fixed bottom-4 left-4 flex items-center justify-center overflow-hidden">
             <div className="relative flex h-auto w-48 items-center justify-center">
@@ -16,4 +16,4 @@ function HireMe() {
     );
 }
 
-export default HireMe;
+export default HireButton;
