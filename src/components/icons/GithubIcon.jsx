@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function GithubIcon({ className, ...rest }) {
+function GithubIcon({ className = '', ...rest }) {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

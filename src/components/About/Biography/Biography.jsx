@@ -1,6 +1,6 @@
 import AnimatedNumber from '@/components/AnimatedNumber';
 import Image from 'next/image';
-import profilePic from '../../../public/profile-pic.jpeg';
+import profilePic from '@/assets/images/profile-pic.jpeg';
 
 function Biography() {
     return (

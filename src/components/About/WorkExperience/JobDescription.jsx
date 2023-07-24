@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { LiIcon } from '../icons';
+import { LiIcon } from '@/components/icons';
 import { useRef } from 'react';
 import { motion, spring } from 'framer-motion';
 
