@@ -11,7 +11,7 @@ function SocialLinks({ children, className = '' }) {
                 target={'_blank'}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="mr-3 w-6 rounded-full bg-light dark:bg-dark sm:mx-1">
+                className="mr-3 w-8 rounded-full bg-light dark:bg-dark lg:w-10 sm:mx-4">
                 <GithubIcon />
             </motion.a>
             <motion.a
@@ -19,7 +19,7 @@ function SocialLinks({ children, className = '' }) {
                 target={'_blank'}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="mx-3 w-6 sm:mx-1">
+                className="mx-3 w-8 lg:w-10 sm:mx-4 ">
                 <LinkedinIcon />
             </motion.a>
             <motion.a
@@ -27,7 +27,7 @@ function SocialLinks({ children, className = '' }) {
                 target={'_blank'}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="ml-3 w-6 sm:mx-1">
+                className="ml-3 w-8 lg:w-10 sm:mx-4 ">
                 <TwitterIcon />
             </motion.a>
             {children}

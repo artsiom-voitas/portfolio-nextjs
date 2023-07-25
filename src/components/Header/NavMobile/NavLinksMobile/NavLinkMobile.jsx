@@ -9,7 +9,7 @@ function NavLinkModal({ href, title, setIsOpen }) {
     }
     return (
         <button
-            className="group relative my-2 text-light dark:text-dark"
+            className="group relative my-2 text-xl text-light dark:text-dark"
             onClick={handleClick}>
             {title}
             <span
