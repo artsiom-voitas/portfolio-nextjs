@@ -6,6 +6,7 @@ import { GithubIcon } from '../icons';
 function Project({ type, title, img, demoLink, githubLink }) {
     return (
         <article className="relative flex w-full flex-col items-center justify-center rounded-3xl border border-solid border-dark bg-light p-6 shadow-2xl">
+            <div className="absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2rem] rounded-br-3xl bg-dark" />
             <Link
                 href={demoLink}
                 target="_blank"

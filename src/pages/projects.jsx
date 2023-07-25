@@ -30,7 +30,7 @@ function Projects() {
                         text="Great things start small"
                         className="mb-16"
                     />
-                    <div className="grid grid-cols-12 gap-24">
+                    <div className="grid grid-cols-12 gap-24 gap-y-32">
                         <div className="col-span-12">
                             <FeaturedProject
                                 type="Featured Project"

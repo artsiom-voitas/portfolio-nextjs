@@ -1,11 +1,12 @@
-import PropTypes from 'prop-types';
 import Image from 'next/image';
 import Link from 'next/link';
+import PropTypes from 'prop-types';
 import { GithubIcon } from '../icons';
 
 function FeaturedProject({ type, title, summary, img, demoLink, githubLink }) {
     return (
-        <article className="flex w-full items-center justify-between rounded-3xl border border-solid border-dark bg-light p-12 shadow-2xl">
+        <article className="relative flex w-full items-center justify-between rounded-3xl rounded-br-2xl border border-solid border-dark bg-light p-12 shadow-2xl">
+            <div className="absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2.5rem] rounded-br-3xl bg-dark" />
             <Link
                 href={demoLink}
                 target="_blank"
