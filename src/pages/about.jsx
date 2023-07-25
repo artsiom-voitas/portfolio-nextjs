@@ -1,4 +1,9 @@
-import { Biography, Education, Skills, WorkExperience } from '@/components/About';
+import {
+    Biography,
+    Education,
+    Skills,
+    WorkExperience
+} from '@/components/About';
 import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Head from 'next/head';

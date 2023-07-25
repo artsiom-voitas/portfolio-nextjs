@@ -5,6 +5,7 @@ import EducationDecription from './EducationDecription';
 function Education() {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({
+        layoutEffect: false,
         target: ref,
         offset: ['start end', 'center start']
     });

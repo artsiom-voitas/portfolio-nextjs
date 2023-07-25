@@ -5,6 +5,7 @@ import { motion, useScroll } from 'framer-motion';
 function WorkExperience() {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({
+        layoutEffect: false,
         target: ref,
         offset: ['start end', 'center start']
     });

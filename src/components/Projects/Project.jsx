@@ -2,6 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { GithubIcon } from '../icons';
+import { motion } from 'framer-motion';
+
+const FramerImage = motion(Image);
 
 function Project({ type, title, img, demoLink, githubLink }) {
     return (
@@ -17,10 +20,16 @@ function Project({ type, title, img, demoLink, githubLink }) {
                 href={demoLink}
                 target="_blank"
                 className="w-full cursor-pointer overflow-hidden rounded-lg">
-                <Image
+                <FramerImage
                     src={img}
                     alt={title}
                     className="h-auto w-full"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ duration: 0.2 }}
+                    priority={true}
+                    sizes="(max-width: 768px) 100vw,
+                    (max-width: 1200px) 50vw,
+                    50vw"
                 />
             </Link>
             <div className="mt-4 flex w-full flex-col items-start justify-between">

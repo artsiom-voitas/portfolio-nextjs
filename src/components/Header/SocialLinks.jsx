@@ -1,6 +1,12 @@
 import { motion } from 'framer-motion';
 import useThemeSwitcher from '../hooks/useThemeSwitcher';
-import { GithubIcon, LinkedinIcon, MoonIcon, SunIcon, TwitterIcon } from '../icons';
+import {
+    GithubIcon,
+    LinkedinIcon,
+    MoonIcon,
+    SunIcon,
+    TwitterIcon
+} from '../icons';
 
 function SocialLinks() {
     const [mode, setMode] = useThemeSwitcher();
@@ -37,8 +43,12 @@ function SocialLinks() {
             </motion.a>
             <button
                 onClick={changeTheme}
-                className={`ml-3 flex items-center justify-center rounded-full p-1
-                ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
+                className={`ml-4 flex items-center justify-center rounded-full p-1
+                ${
+                    mode === 'light'
+                        ? 'bg-dark text-light'
+                        : 'bg-light text-dark'
+                }`}>
                 {mode === 'dark' ? (
                     <SunIcon className="fill-dark" />
                 ) : (
