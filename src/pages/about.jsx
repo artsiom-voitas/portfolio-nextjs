@@ -13,7 +13,7 @@ function About() {
                     content="About Artsiom Voitas"
                 />
             </Head>
-            <main className="flex w-full flex-col items-center justify-center">
+            <main className="flex w-full flex-col items-center justify-center dark:text-light">
                 <Layout className="pt-16">
                     <AnimatedText
                         className="mb-16"

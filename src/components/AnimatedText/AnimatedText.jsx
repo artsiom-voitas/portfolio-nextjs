@@ -1,15 +1,18 @@
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
-import { quoteAnimationVariant, wordAnimationVariant } from './animationVariants';
+import {
+    quoteAnimationVariant,
+    wordAnimationVariant
+} from './animationVariants';
 
 function AnimatedText({ text, className = '' }) {
     return (
         <div
-            className={
-                'mx-auto flex w-full items-center justify-center overflow-hidden py-2 text-center'
-            }>
+            className="mx-auto flex w-full items-center justify-center
+                       overflow-hidden py-2 text-center">
             <motion.h1
-                className={`${className} inline-block w-full text-6xl font-bold capitalize text-dark`}
+                className={`${className} inline-block w-full text-6xl
+                            font-bold capitalize text-dark dark:text-light`}
                 variants={quoteAnimationVariant}
                 initial="initial"
                 animate="animate">

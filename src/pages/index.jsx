@@ -12,7 +12,7 @@ export default function Index() {
                     content="Frontend developer Artsiom Voitas' portfolio"
                 />
             </Head>
-            <main className="flex min-h-screen w-full items-center text-dark">
+            <main className="flex min-h-screen w-full items-center text-dark dark:text-light">
                 <Layout>
                     <Home />
                 </Layout>

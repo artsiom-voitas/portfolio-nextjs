@@ -24,7 +24,7 @@ function Projects() {
                     content="Artsiom's Voitas Projects"
                 />
             </Head>
-            <main className="mb-16 flex w-full flex-col items-center justify-center">
+            <main className="mb-16 flex w-full flex-col items-center justify-center dark:text-light">
                 <Layout className="pt-16">
                     <AnimatedText
                         text="Great things start small"
@@ -59,11 +59,14 @@ function Projects() {
                                 githubLink="https://github.com/artsiom-voitas/mortgage-calculator/"
                             />
                         </div>
-                        <div className="col-span-6">
-                            <Project
+                        <div className="col-span-12">
+                            <FeaturedProject
                                 type="Vanila JS"
                                 title="AV Store"
                                 img={avStore}
+                                summary='The project includes a working system of registration and login to
+                                the site, which shows from which device and browser the login is made, used
+                                API Google maps, and there is a card index of "clients".'
                                 demoLink="https://artsiom-voitas.github.io/av-store/dist/index.html"
                                 githubLink="https://github.com/artsiom-voitas/av-store/"
                             />

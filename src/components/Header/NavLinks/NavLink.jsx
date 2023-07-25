@@ -12,6 +12,7 @@ function NavLink({ href, title }) {
             <span
                 className={`ease absolute -bottom-0.5 left-0 inline-block h-[1px]
                 bg-dark transition-[width] duration-300 group-hover:w-full
+                dark:bg-light
                 ${router.asPath === href ? 'w-full' : 'w-0'}`}>
                 &nbsp;
             </span>

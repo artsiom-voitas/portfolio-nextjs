@@ -3,7 +3,14 @@ import { LiIcon } from '@/components/icons';
 import { useRef } from 'react';
 import { motion, spring } from 'framer-motion';
 
-function JobDescription({ position, company, websiteLink, time, adress, work }) {
+function JobDescription({
+    position,
+    company,
+    websiteLink,
+    time,
+    adress,
+    work
+}) {
     const ref = useRef(null);
     return (
         <li
@@ -19,11 +26,11 @@ function JobDescription({ position, company, websiteLink, time, adress, work }) 
                     <a
                         href={websiteLink}
                         target="_blank"
-                        className="capitalize text-primary">
+                        className="capitalize text-primary dark:text-primaryDark">
                         @{company}
                     </a>
                 </h3>
-                <span className="font-medium capitalize text-dark/75">
+                <span className="font-medium capitalize text-dark/75 dark:text-light/75">
                     {time} | {adress}
                 </span>
                 <p className="w-full font-medium">{work}</p>

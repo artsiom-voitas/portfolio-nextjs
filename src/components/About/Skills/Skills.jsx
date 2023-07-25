@@ -3,8 +3,12 @@ import Skill from './Skill';
 function Skills() {
     return (
         <>
-            <h2 className="mt-64 w-full text-center text-8xl font-bold">Skills</h2>
-            <div className="relative flex h-screen w-full items-center justify-center rounded-full bg-circularLight">
+            <h2 className="mt-64 w-full text-center text-8xl font-bold">
+                Skills
+            </h2>
+            <div
+                className="relative flex h-screen w-full items-center
+                justify-center rounded-full bg-circularLight dark:bg-circularDark">
                 <Skill
                     title="Web"
                     x="0vw"

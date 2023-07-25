@@ -5,8 +5,14 @@ import { GithubIcon } from '../icons';
 
 function Project({ type, title, img, demoLink, githubLink }) {
     return (
-        <article className="relative flex w-full flex-col items-center justify-center rounded-3xl border border-solid border-dark bg-light p-6 shadow-2xl">
-            <div className="absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2rem] rounded-br-3xl bg-dark" />
+        <article
+            className="relative flex w-full flex-col items-center justify-center
+        rounded-3xl border border-solid border-dark bg-light p-6 shadow-2xl
+        dark:border-light dark:bg-dark">
+            <div
+                className="absolute -right-3 top-0 -z-10 h-[103%] w-[101%] rounded-[2rem]
+            rounded-br-3xl bg-dark dark:bg-light"
+            />
             <Link
                 href={demoLink}
                 target="_blank"
@@ -18,12 +24,16 @@ function Project({ type, title, img, demoLink, githubLink }) {
                 />
             </Link>
             <div className="mt-4 flex w-full flex-col items-start justify-between">
-                <span className="text-xl font-medium text-primary">{type}</span>
+                <span className="text-xl font-medium text-primary dark:text-primaryDark">
+                    {type}
+                </span>
                 <Link
                     href={demoLink}
                     target="_blank"
                     className="underline-offset-2 hover:underline">
-                    <h2 className="my-2 w-full text-left text-4xl font-bold">{title}</h2>
+                    <h2 className="my-2 w-full text-left text-4xl font-bold">
+                        {title}
+                    </h2>
                 </Link>
                 <div className="mt-2 flex w-full items-center justify-between">
                     <Link
