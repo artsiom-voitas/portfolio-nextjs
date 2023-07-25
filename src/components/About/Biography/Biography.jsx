@@ -31,7 +31,7 @@ function Biography() {
                 </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
-                <div className="absolute -right-3 top-0 -z-10 h-[103%] w-[102%] rounded-[2rem] bg-dark"></div>
+                <div className="absolute -right-3 top-0 -z-10 h-[103%] w-[102%] rounded-[2rem] bg-dark" />
                 <Image
                     src={profilePic}
                     alt="Artsiom Voitas picture"
