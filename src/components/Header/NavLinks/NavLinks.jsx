@@ -15,10 +15,6 @@ function NavLinks() {
                 href="/projects"
                 title="Projects"
             />
-            <NavLink
-                href="/articles"
-                title="Articles"
-            />
         </nav>
     );
 }
