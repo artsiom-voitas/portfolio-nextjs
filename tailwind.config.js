@@ -25,6 +25,14 @@ module.exports = {
                 circularDark:
                     'repeating-radial-gradient(rgba(255,255,255,0.6) 2px, #1b1b1b 15px, #1b1b1b 100px)'
             }
+        },
+        screens: {
+            xxl: { max: '1535px' },
+            xl: { max: '1279px' },
+            lg: { max: '1023px' },
+            md: { max: '767px' },
+            sm: { max: '639px' },
+            xs: { max: '479px' }
         }
     },
     plugins: []

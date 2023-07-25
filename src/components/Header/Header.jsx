@@ -1,15 +1,19 @@
-import Logo from './Logo';
-import NavLinks from './NavLinks/NavLinks';
-import SocialLinks from './SocialLinks';
+import { Logo, NavLinks, NavMobile, SocialLinks } from '@/components/Header';
+import SwitchThemeButton from '../SwitchThemeButton';
 
 function Header() {
     return (
         <header
-            className="flex w-full items-center justify-between px-32
-            py-8 font-medium dark:text-light">
-            <NavLinks />
+            className="relative z-10 flex w-full items-center justify-between
+            px-32 py-8 font-medium dark:text-light">
             <Logo />
-            <SocialLinks />
+            <div className="flex w-full items-center justify-between lg:hidden">
+                <NavLinks />
+                <SocialLinks>
+                    <SwitchThemeButton className="ml-4" />
+                </SocialLinks>
+            </div>
+            <NavMobile />
         </header>
     );
 }

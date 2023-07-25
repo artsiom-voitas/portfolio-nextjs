@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import NavLink from './NavLink';
 
-function NavLinks() {
+function NavLinks({ className = '' }) {
     return (
-        <nav className="flex justify-between gap-8">
+        <nav className={`flex justify-between gap-8 ${className}`}>
             <NavLink
                 href="/"
                 title="Home"
@@ -18,5 +19,9 @@ function NavLinks() {
         </nav>
     );
 }
+
+NavLinks.propTypes = {
+    className: PropTypes.string
+};
 
 export default NavLinks;
