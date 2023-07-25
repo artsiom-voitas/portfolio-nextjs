@@ -13,7 +13,7 @@ export default function Index() {
                 />
             </Head>
             <main className="flex min-h-screen w-full items-center text-dark dark:text-light">
-                <Layout>
+                <Layout className="pt-0 md:pt-16 sm:pt-8">
                     <Home />
                 </Layout>
             </main>

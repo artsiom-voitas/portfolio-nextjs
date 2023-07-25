@@ -1,9 +1,11 @@
+import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { CircularText } from '../../icons';
 
-function HireButton() {
+function HireButton({ className = '' }) {
     return (
-        <div className="fixed bottom-4 left-4 flex items-center justify-center overflow-hidden">
+        <div
+            className={`fixed bottom-4 left-4 flex items-center justify-center overflow-hidden ${className}`}>
             <div className="relative flex h-auto w-48 items-center justify-center">
                 <CircularText
                     className={'animate-spin-slow fill-dark dark:fill-light'}
@@ -21,5 +23,9 @@ function HireButton() {
         </div>
     );
 }
+
+HireButton.propTypes = {
+    className: PropTypes.string
+};
 
 export default HireButton;

@@ -9,9 +9,9 @@ function AnimatedText({ text, className = '' }) {
     return (
         <div
             className="mx-auto flex w-full items-center justify-center
-                       overflow-hidden py-2 text-center">
+                       overflow-hidden py-2 text-center sm:py-0">
             <motion.h1
-                className={`${className} inline-block w-full text-6xl
+                className={`${className} inline-block w-full text-8xl
                             font-bold capitalize text-dark dark:text-light`}
                 variants={quoteAnimationVariant}
                 initial="initial"
