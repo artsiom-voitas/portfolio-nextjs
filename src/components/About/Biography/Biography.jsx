@@ -4,8 +4,10 @@ import Image from 'next/image';
 
 function Biography() {
     return (
-        <div className="grid w-full grid-cols-8 gap-16">
-            <div className="col-span-3 flex flex-col items-start justify-start">
+        <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
+            <div
+                className="col-span-3 flex flex-col items-start justify-start xl:col-span-4
+            md:order-2 md:col-span-8">
                 <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                     Biography
                 </h2>
@@ -37,8 +39,9 @@ function Biography() {
                 </p>
             </div>
             <div
-                className="relative col-span-3 h-max rounded-2xl border-2
-                border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark
+                className="relative col-span-3 h-max rounded-2xl border-2 border-solid
+                border-dark bg-light p-8 dark:border-light dark:bg-dark xl:col-span-4
+                md:order-1 md:col-span-8
             ">
                 <div
                     className="absolute -right-3 top-0 -z-10 h-[103%]
@@ -54,20 +57,24 @@ function Biography() {
                     33vw"
                 />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-around">
-                <div className="flex flex-col items-end justify-center">
-                    <span className="inline-block text-7xl font-bold">
+            <div className="col-span-2 flex flex-col items-end justify-around xl:col-span-8 xl:flex-row md:order-3">
+                <div className="flex flex-col items-end justify-center xl:items-center">
+                    <span className="inline-block text-7xl font-bold md:mb-3 md:text-6xl sm:text-5xl xs:text-4xl">
                         <AnimatedNumber number={10} />+
                     </span>
-                    <h2 className="text-right text-xl font-medium capitalize text-dark/75 dark:text-light/75">
+                    <h2
+                        className="text-right text-xl font-medium capitalize text-dark/75 dark:text-light/75
+                    xl:text-center md:text-lg sm:text-base xs:text-sm">
                         projects completed
                     </h2>
                 </div>
-                <div className="flex flex-col items-end justify-center">
-                    <span className="inline-block text-7xl font-bold">
+                <div className="flex flex-col items-end justify-center xl:items-center">
+                    <span className="inline-block text-7xl font-bold md:mb-3 md:text-6xl sm:text-5xl xs:text-4xl">
                         <AnimatedNumber number={3} />
                     </span>
-                    <h2 className="text-right text-xl font-medium capitalize text-dark/75 dark:text-light/75">
+                    <h2
+                        className="text-right text-xl font-medium capitalize text-dark/75 dark:text-light/75
+                    xl:text-center md:text-lg sm:text-base xs:text-sm">
                         month of commercial experience
                     </h2>
                 </div>

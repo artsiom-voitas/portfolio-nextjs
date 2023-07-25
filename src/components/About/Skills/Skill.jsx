@@ -7,6 +7,8 @@ function Skill({ title, x, y, className = '' }) {
             className={`absolute flex cursor-pointer items-center justify-center
             rounded-full bg-dark px-6  py-3 font-semibold
             text-light shadow-dark  dark:bg-light dark:text-dark dark:shadow-light
+            lg:px-4 lg:py-2 md:bg-transparent md:px-3 md:py-1.5 md:text-sm xs:font-bold xs:text-dark
+            xs:dark:bg-transparent xs:dark:text-light
                 ${className}`}
             whileHover={{ scale: 1.1 }}
             initial={{ x: 0, y: 0 }}
