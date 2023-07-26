@@ -4,7 +4,12 @@ import Script from 'next/script';
 export default function Document() {
     return (
         <Html lang="en">
-            <Head />
+            <Head>
+                <meta
+                    name="theme-color"
+                    content="#f5f5f5"
+                />
+            </Head>
             <body>
                 <Script
                     id="theme-switcher"
