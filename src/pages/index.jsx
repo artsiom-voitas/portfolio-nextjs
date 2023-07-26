@@ -1,5 +1,6 @@
 import Home from '@/components/Home';
 import Layout from '@/components/Layout/Layout';
+import TransitionEffect from '@/components/TransitionEffect';
 import Head from 'next/head';
 
 export default function Index() {
@@ -12,6 +13,7 @@ export default function Index() {
                     content="Frontend developer Artsiom Voitas' portfolio"
                 />
             </Head>
+            <TransitionEffect />
             <main className="flex min-h-screen w-full items-center text-dark dark:text-light">
                 <Layout className="pt-0 md:pt-16 sm:pt-8">
                     <Home />

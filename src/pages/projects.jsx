@@ -12,6 +12,7 @@ import {
     universalStore,
     webovio
 } from '@/components/Projects';
+import TransitionEffect from '@/components/TransitionEffect';
 import Head from 'next/head';
 
 function Projects() {
@@ -24,6 +25,7 @@ function Projects() {
                     content="Artsiom's Voitas Projects"
                 />
             </Head>
+            <TransitionEffect />
             <main className="mb-16 flex w-full flex-col items-center justify-center dark:text-light">
                 <Layout className="pt-16">
                     <AnimatedText
