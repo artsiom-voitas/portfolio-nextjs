@@ -9,8 +9,8 @@ function Skills() {
             <div
                 className="relative flex h-screen w-full items-center
                 justify-center rounded-full bg-circularLight dark:bg-circularDark
-                lg:h-[80vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd
-                sm:h-[60vh] sm:bg-circularLightSm sm:dark:bg-circularDarkSm xs:h-[50vh]">
+                lg:h-[65vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd
+                sm:h-[55vh] sm:bg-circularLightSm sm:dark:bg-circularDarkSm xs:h-[40vh]">
                 <Skill
                     title="Web"
                     x="0vw"
