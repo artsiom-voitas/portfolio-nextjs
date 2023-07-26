@@ -34,12 +34,15 @@ function useThemeSwitcher() {
     }, []);
 
     useEffect(() => {
+        const metaTag = document.querySelector('meta[name="theme-color"]');
         if (mode === 'light') {
             window.localStorage.setItem('theme', 'light');
             document.documentElement.classList.remove('dark');
+            metaTag.setAttribute('content', '#f5f5f5');
         } else if (mode === 'dark') {
             window.localStorage.setItem('theme', 'dark');
             document.documentElement.classList.add('dark');
+            metaTag.setAttribute('content', '#1b1b1b');
         }
     }, [mode]);
 
