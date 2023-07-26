@@ -8,8 +8,8 @@ const FramerImage = motion(Image);
 
 function FeaturedProject({ type, title, summary, img, demoLink, githubLink }) {
     return (
-        <div className="col-span-12">
-            <article
+        <article className="col-span-12">
+            <div
                 className="relative flex w-full items-center justify-between rounded-3xl
         rounded-br-2xl border border-solid border-dark bg-light p-12 shadow-2xl
         dark:border-light dark:bg-dark lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
@@ -64,8 +64,8 @@ function FeaturedProject({ type, title, summary, img, demoLink, githubLink }) {
                         </Link>
                     </div>
                 </div>
-            </article>
-        </div>
+            </div>
+        </article>
     );
 }
 

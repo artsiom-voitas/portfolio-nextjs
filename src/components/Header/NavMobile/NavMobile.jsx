@@ -13,7 +13,7 @@ function NavMobile() {
             />
             {isOpen && <NavModal setIsOpen={setIsOpen} />}
 
-            <SwitchThemeButton className="hidden lg:flex" />
+            <SwitchThemeButton className="hidden w-[28px] lg:flex" />
         </>
     );
 }
