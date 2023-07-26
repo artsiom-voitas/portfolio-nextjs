@@ -6,6 +6,7 @@ import MoonIcon from '../icons/MoonIcon';
 import SunIcon from '../icons/SunIcon';
 import TwitterIcon from '../icons/TwitterIcon';
 import LiIcon from './LiIcon';
+import Nextjs from './Nextjs.jsx';
 
 export {
     CircularText,
@@ -14,6 +15,7 @@ export {
     LinkArrow,
     LinkedinIcon,
     MoonIcon,
+    Nextjs,
     SunIcon,
     TwitterIcon
 };

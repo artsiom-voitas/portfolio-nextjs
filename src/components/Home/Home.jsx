@@ -30,16 +30,15 @@ function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
                 <AnimatedText
-                    text="Lorem ipsum dolor"
+                    text="Programmer: A machine that turns coffee into code"
                     className="!text-left !text-6xl xl:!text-5xl lg:!text-center
                     lg:!text-6xl md:!text-5xl sm:!text-3xl"
                 />
                 <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nihil provident dolorem accusamus aliquid quas reprehenderit
-                    magnam, deserunt commodi eveniet unde saepe, ipsa ipsum
-                    incidunt consectetur possimus. Ipsam suscipit laboriosam
-                    excepturi?
+                    As a newbie frontend developer, I&apos;m looking to find my
+                    first job where I can translate ideas into innovative web
+                    applications. Check out my latest projects, showcasing my
+                    experience in React.js development.
                 </p>
                 <div className="relative mt-2 flex items-center self-start lg:self-center">
                     <Link

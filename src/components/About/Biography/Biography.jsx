@@ -12,30 +12,25 @@ function Biography() {
                     Biography
                 </h2>
                 <p className="font-medium">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Assumenda fugiat quidem rem doloribus dolorem, commodi iure
-                    voluptatem! Ad obcaecati labore explicabo iusto magnam
-                    dolore facilis aliquid placeat inventore veniam. Voluptas.
+                    When I was a student I got a part-time job in an IT company,
+                    during that period I realized that I wanted to write code.
                 </p>
                 <p className="my-4 font-medium">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Facilis, nesciunt cupiditate! Adipisci maiores hic alias
-                    repellendus nemo esse, quisquam eaque est libero quae
-                    debitis laborum dolores mollitia, vel ipsam ipsum. Alias
-                    veritatis, quisquam earum reprehenderit fugit itaque nostrum
-                    sapiente dolore molestias! Nulla mollitia aliquam, quas
-                    explicabo provident magnam, earum reprehenderit autem eos ut
-                    nemo, quia temporibus animi numquam fugiat voluptas?
+                    I decided to take a course in frontend development. I
+                    finished and learned: HTML, CSS, Gulp, SCSS, Pug. Almost
+                    immediately after that I was taken on an internship at
+                    Lomray Software for the position of Trainee HTML/CSS
+                    developer. During the internship I wrote HTML/CSS code,
+                    learned how to use Version control, went through code
+                    review, all tasks were tracked through Jira. At the same
+                    time I started learning JavaScript and then React. I
+                    developed the final project using: React, Redux,
+                    React-router, JS, Bootstrap, and CSS.
                 </p>
                 <p className="font-medium">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    mollitia perferendis, quasi deleniti soluta quis distinctio
-                    maiores, neque cumque vel explicabo sit harum excepturi ex.
-                    Quasi consequatur excepturi placeat expedita! Laudantium,
-                    debitis iure consequuntur commodi sapiente autem voluptatum
-                    soluta ad tempore velit veniam voluptate architecto magnam
-                    qui placeat earum. Odio, dicta ipsa sunt non beatae
-                    repudiandae aliquam commodi illo culpa?
+                    I just recently returned from a mandatory duty in the Army
+                    and now I&apos;m moving forward with my dream of getting a
+                    job as a developer.
                 </p>
             </div>
             <div

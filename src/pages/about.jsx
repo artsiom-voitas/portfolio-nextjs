@@ -24,7 +24,7 @@ function About() {
                 <Layout className="pt-16">
                     <AnimatedText
                         className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
-                        text="Lorem ipsum dolor"
+                        text="Great things start small"
                     />
                     <Biography />
                     <Skills />

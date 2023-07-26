@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Layout from '../Layout';
+import { Nextjs } from '../icons';
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -12,12 +13,10 @@ function Footer() {
                 <div className="flex items-center lg:py-2">
                     Build With
                     <Link
-                        className="ml-2 rounded-lg border border-solid border-black bg-black
-                                 p-1 px-2 text-white hover:bg-white hover:text-black dark:border-light
-                               dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-white"
+                        className="ml-3 dark:fill-light"
                         href={'https://nextjs.org/'}
                         target={'_blank'}>
-                        Next.js
+                        <Nextjs />
                     </Link>
                 </div>
             </Layout>
