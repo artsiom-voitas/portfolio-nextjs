@@ -3,7 +3,7 @@ import Skill from './Skill';
 function Skills() {
     return (
         <>
-            <h2 className="mt-64 w-full text-center text-8xl font-bold md:mt-32 md:text-6xl">
+            <h2 className="mt-64 w-full text-center text-8xl font-bold md:my-16 md:text-6xl">
                 Skills
             </h2>
             <div

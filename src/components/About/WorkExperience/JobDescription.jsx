@@ -20,7 +20,8 @@ function JobDescription({
             <motion.div
                 initial={{ y: 50 }}
                 whileInView={{ y: 0 }}
-                transition={{ duration: 0.5, type: spring }}>
+                transition={{ duration: 0.5, type: spring }}
+                viewport={{ once: true }}>
                 <h3 className="text-2xl font-bold capitalize sm:text-xl xs:text-lg">
                     {position}{' '}
                     <a
