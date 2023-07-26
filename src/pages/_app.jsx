@@ -1,13 +1,16 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import { AnimatePresence } from 'framer-motion';
 import { Montserrat } from 'next/font/google';
 import '../assets/styles/globals.css';
+import { useRouter } from 'next/router';
 
 const montserrat = Montserrat({
     subsets: ['latin'],
     variable: '--font-mont'
 });
 export default function App({ Component, pageProps }) {
+    const router = useRouter();
     return (
         <>
             <meta
@@ -21,7 +24,12 @@ export default function App({ Component, pageProps }) {
             <main
                 className={`${montserrat.variable} min-h-screen w-full bg-light font-mont dark:bg-dark`}>
                 <Header />
-                <Component {...pageProps} />
+                <AnimatePresence mode="wait">
+                    <Component
+                        key={router.asPath}
+                        {...pageProps}
+                    />
+                </AnimatePresence>
                 <Footer />
             </main>
         </>
