@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import { GithubIcon, LinkedinIcon, TwitterIcon } from '../../icons';
+import TelegramIcon from '@/components/icons/TelegramIcon';
 
 function SocialLinks({ children, className = '' }) {
     return (
@@ -11,7 +12,7 @@ function SocialLinks({ children, className = '' }) {
                 target={'_blank'}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="mr-3 w-8 rounded-full bg-light dark:bg-dark lg:w-10 sm:mx-4">
+                className="mr-3 w-8 rounded-full bg-light dark:bg-dark lg:w-10 sm:mx-3">
                 <GithubIcon />
             </motion.a>
             <motion.a
@@ -19,15 +20,23 @@ function SocialLinks({ children, className = '' }) {
                 target={'_blank'}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="mx-3 w-8 lg:w-10 sm:mx-4 ">
+                className="mx-3 w-8 lg:w-10 sm:mx-3 ">
                 <LinkedinIcon />
+            </motion.a>
+            <motion.a
+                href="https://t.me/artsiom_voitas"
+                target={'_blank'}
+                whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.9 }}
+                className="mx-3 w-8 lg:w-10 sm:mx-3 ">
+                <TelegramIcon />
             </motion.a>
             <motion.a
                 href="https://twitter.com/artsiom_voitas"
                 target={'_blank'}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="ml-3 w-8 lg:w-10 sm:mx-4 ">
+                className="ml-3 w-8 lg:w-10 sm:mx-3">
                 <TwitterIcon />
             </motion.a>
             {children}
