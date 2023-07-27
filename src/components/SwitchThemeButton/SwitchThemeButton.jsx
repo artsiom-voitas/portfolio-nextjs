@@ -11,7 +11,7 @@ function SwitchThemeButton({ className = '' }) {
     return (
         <button
             onClick={changeTheme}
-            className={`flex items-center justify-center rounded-full p-1
+            className={`flex max-w-[32px] items-center justify-center rounded-full p-1
             ${className}
                 ${
                     mode === 'light'
