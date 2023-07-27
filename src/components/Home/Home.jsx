@@ -15,7 +15,7 @@ function Home() {
                 <MotionImage
                     src={reactImg}
                     alt="ReactJS"
-                    priority={true}
+                    priority
                     sizes="(max-width: 768px) 100vw,
                     (max-width: 1200px) 50vw,
                     50vw"
