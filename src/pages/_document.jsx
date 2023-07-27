@@ -10,7 +10,7 @@ export default function Document() {
                     content="#f5f5f5"
                 />
             </Head>
-            <body>
+            <body className="bg-light dark:bg-dark">
                 <Script
                     id="theme-switcher"
                     strategy="beforeInteractive">
