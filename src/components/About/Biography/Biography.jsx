@@ -12,8 +12,9 @@ function Biography() {
                     Biography
                 </h2>
                 <p className="font-medium">
-                    When I was a student I got a part-time job in an IT company,
-                    during that period I realized that I wanted to write code.
+                    During that period when I was a student and got a part-time
+                    job in an IT company, I realized that I wanted to write
+                    code.
                 </p>
                 <p className="my-4 font-medium">
                     I decided to take a course in frontend development. I
