@@ -17,7 +17,7 @@
   <p align="center">
     Collection of my current achievments.
     <br />
-    <a href="artsiom-voitas.vercel.app"><strong>View Demo</strong></a>
+    <a href="https://artsiom-voitas.vercel.app"><strong>View Demo</strong></a>
     <br />
     <br />
     <a href="https://github.com/artsiom-voitas/portfolio-nextjs/issues">Report Bug</a>
