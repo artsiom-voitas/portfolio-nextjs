@@ -1,4 +1,5 @@
 import { NavLinksMobile, SocialLinks } from '@/components/Header';
+import { XIcon } from '@/components/icons';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
@@ -35,7 +36,16 @@ function NavModal({ setIsOpen }) {
                     className="mb-8 flex flex-col items-center justify-center"
                     setIsOpen={setIsOpen}
                 />
-                <SocialLinks className="mt-2" />
+                <SocialLinks className="mt-2">
+                    <motion.a
+                        href="https://x.com/artsiom_voitas"
+                        target={'_blank'}
+                        whileHover={{ y: -2 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="ml-3 w-8 lg:w-10 sm:mx-3">
+                        <XIcon className="fill-light dark:fill-dark" />
+                    </motion.a>
+                </SocialLinks>
             </motion.div>
         </div>
     );

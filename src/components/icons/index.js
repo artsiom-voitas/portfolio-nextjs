@@ -4,7 +4,7 @@ import LinkArrow from '../icons/LinkArrow';
 import LinkedinIcon from '../icons/LinkedinIcon';
 import MoonIcon from '../icons/MoonIcon';
 import SunIcon from '../icons/SunIcon';
-import TwitterIcon from '../icons/TwitterIcon';
+import XIcon from './XIcon';
 import LiIcon from './LiIcon';
 import Nextjs from './Nextjs.jsx';
 
@@ -17,5 +17,5 @@ export {
     MoonIcon,
     Nextjs,
     SunIcon,
-    TwitterIcon
+    XIcon
 };
