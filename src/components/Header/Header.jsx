@@ -17,10 +17,10 @@ function Header() {
                         target={'_blank'}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className="ml-3 w-8 lg:w-10 sm:mx-3">
+                        className="mx-3 w-8 lg:w-10 sm:mx-3">
                         <XIcon className="dark:fill-light" />
                     </motion.a>
-                    <SwitchThemeButton className="ml-4" />
+                    <SwitchThemeButton className="ml-3" />
                 </SocialLinks>
             </div>
             <NavMobile />
