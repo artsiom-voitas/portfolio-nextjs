@@ -1,5 +1,7 @@
 import { Logo, NavLinks, NavMobile, SocialLinks } from '@/components/Header';
+import { motion } from 'framer-motion';
 import SwitchThemeButton from '../SwitchThemeButton';
+import { XIcon } from '../icons';
 
 function Header() {
     return (
@@ -10,6 +12,14 @@ function Header() {
             <div className="flex w-full items-center justify-between lg:hidden">
                 <NavLinks />
                 <SocialLinks>
+                    <motion.a
+                        href="https://x.com/artsiom_voitas"
+                        target={'_blank'}
+                        whileHover={{ y: -2 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="ml-3 w-8 lg:w-10 sm:mx-3">
+                        <XIcon className="dark:fill-light" />
+                    </motion.a>
                     <SwitchThemeButton className="ml-4" />
                 </SocialLinks>
             </div>

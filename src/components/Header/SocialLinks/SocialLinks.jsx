@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from '../../icons';
+import { GithubIcon, LinkedinIcon } from '../../icons';
 import TelegramIcon from '@/components/icons/TelegramIcon';
 
 function SocialLinks({ children, className = '' }) {
@@ -30,14 +30,6 @@ function SocialLinks({ children, className = '' }) {
                 whileTap={{ scale: 0.9 }}
                 className="mx-3 w-8 lg:w-10 sm:mx-3 ">
                 <TelegramIcon />
-            </motion.a>
-            <motion.a
-                href="https://twitter.com/artsiom_voitas"
-                target={'_blank'}
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-                className="ml-3 w-8 lg:w-10 sm:mx-3">
-                <TwitterIcon />
             </motion.a>
             {children}
         </nav>
