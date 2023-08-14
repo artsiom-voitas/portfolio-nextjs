@@ -7,6 +7,8 @@ import todoApp from '@/assets/images/projects/todo-app.png';
 import universalStore from '@/assets/images/projects/universal-store.png';
 import webovio from '@/assets/images/projects/webovio.png';
 import FeaturedProject from './FeaturedProject.jsx';
+import weatherApp from '@/assets/images/projects/weather-app.png';
+import movieSearch from '@/assets/images/projects/movie-search.png';
 import Project from './Project.jsx';
 
 export {
@@ -19,5 +21,7 @@ export {
     rayalPark,
     todoApp,
     universalStore,
-    webovio
+    webovio,
+    weatherApp,
+    movieSearch
 };

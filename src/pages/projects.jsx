@@ -7,9 +7,11 @@ import {
     githubDashboard,
     honeyStore,
     mortgageCalc,
+    movieSearch,
     rayalPark,
     todoApp,
     universalStore,
+    weatherApp,
     webovio
 } from '@/components/Projects';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -35,11 +37,18 @@ function Projects() {
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <FeaturedProject
                             type="Featured Project"
-                            title="GitHub Dashboard"
-                            summary="Search for repositories on GitHub"
-                            img={githubDashboard}
-                            demoLink="https://artsiom-voitas.github.io/github-dashboard/#/"
-                            githubLink="https://github.com/artsiom-voitas/github-dashboard"
+                            title="Movie Search"
+                            summary="Search for movies on OMDbAPI"
+                            img={movieSearch}
+                            demoLink="https://movie-search-acpn.vercel.app/"
+                            githubLink="https://github.com/artsiom-voitas/movie-search"
+                        />
+                        <Project
+                            type="React TypeScript"
+                            title="Weather App"
+                            img={weatherApp}
+                            demoLink="https://artsiom-voitas.github.io/weather-app/"
+                            githubLink="https://github.com/artsiom-voitas/weather-app/"
                         />
                         <Project
                             type="ReactJS with Redux"
@@ -48,6 +57,14 @@ function Projects() {
                             demoLink="https://artsiom-voitas.github.io/todo-app/"
                             githubLink="https://github.com/artsiom-voitas/todo-app/"
                         />
+                        <FeaturedProject
+                            type="Featured Project"
+                            title="GitHub Dashboard"
+                            summary="Search for repositories on GitHub"
+                            img={githubDashboard}
+                            demoLink="https://artsiom-voitas.github.io/github-dashboard/#/"
+                            githubLink="https://github.com/artsiom-voitas/github-dashboard"
+                        />
                         <Project
                             type="ReactJS with MUI"
                             title="Mortgage calculator"
@@ -55,13 +72,10 @@ function Projects() {
                             demoLink="https://artsiom-voitas.github.io/mortgage-calculator/"
                             githubLink="https://github.com/artsiom-voitas/mortgage-calculator/"
                         />
-                        <FeaturedProject
+                        <Project
                             type="Vanila JS"
                             title="AV Store"
                             img={avStore}
-                            summary='The project includes a working system of registration and login to
-                                the site, which shows from which device and browser the login is made, used
-                                API Google maps, and there is a card index of "clients".'
                             demoLink="https://artsiom-voitas.github.io/av-store/dist/index.html"
                             githubLink="https://github.com/artsiom-voitas/av-store/"
                         />
