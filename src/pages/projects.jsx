@@ -8,9 +8,11 @@ import {
     honeyStore,
     mortgageCalc,
     movieSearch,
+    notesApp,
     rayalPark,
     todoApp,
     universalStore,
+    unsplasher,
     weatherApp,
     webovio
 } from '@/components/Projects';
@@ -36,12 +38,19 @@ function Projects() {
                     />
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <FeaturedProject
-                            type="Featured Project"
-                            title="Movie Search"
-                            summary="Search for movies on OMDbAPI"
-                            img={movieSearch}
-                            demoLink="https://movie-search-acpn.vercel.app/"
-                            githubLink="https://github.com/artsiom-voitas/movie-search"
+                            type="React TypeScript, Next.js, Clerk Auth, shadcn/ui"
+                            title="Unsplasher"
+                            summary="Search for Images with Unsplash API and save the one you like the most."
+                            img={unsplasher}
+                            demoLink="https://unsplasher-av.vercel.app/"
+                            githubLink="https://github.com/artsiom-voitas/unsplasher"
+                        />
+                        <Project
+                            type="React TypeScript, Next.js, Redux Toolkit, NextUI"
+                            title="Notes App"
+                            img={notesApp}
+                            demoLink="https://github.com/artsiom-voitas/notes-app"
+                            githubLink="https://github.com/artsiom-voitas/notes-app"
                         />
                         <Project
                             type="React TypeScript"
@@ -50,20 +59,20 @@ function Projects() {
                             demoLink="https://artsiom-voitas.github.io/weather-app/"
                             githubLink="https://github.com/artsiom-voitas/weather-app/"
                         />
+                        <FeaturedProject
+                            type="React TypeScript, Next.js, Redux, NextUI"
+                            title="Movie Search"
+                            summary="Search for movies on OMDbAPI."
+                            img={movieSearch}
+                            demoLink="https://movie-search-acpn.vercel.app/"
+                            githubLink="https://github.com/artsiom-voitas/movie-search"
+                        />
                         <Project
                             type="ReactJS with Redux"
                             title="Todo App"
                             img={todoApp}
                             demoLink="https://artsiom-voitas.github.io/todo-app/"
                             githubLink="https://github.com/artsiom-voitas/todo-app/"
-                        />
-                        <FeaturedProject
-                            type="Featured Project"
-                            title="GitHub Dashboard"
-                            summary="Search for repositories on GitHub"
-                            img={githubDashboard}
-                            demoLink="https://artsiom-voitas.github.io/github-dashboard/#/"
-                            githubLink="https://github.com/artsiom-voitas/github-dashboard"
                         />
                         <Project
                             type="ReactJS with MUI"
@@ -72,12 +81,13 @@ function Projects() {
                             demoLink="https://artsiom-voitas.github.io/mortgage-calculator/"
                             githubLink="https://github.com/artsiom-voitas/mortgage-calculator/"
                         />
-                        <Project
-                            type="Vanila JS"
-                            title="AV Store"
-                            img={avStore}
-                            demoLink="https://artsiom-voitas.github.io/av-store/dist/index.html"
-                            githubLink="https://github.com/artsiom-voitas/av-store/"
+                        <FeaturedProject
+                            type="React JavaScript, Redux, Bootstrap"
+                            title="GitHub Dashboard"
+                            summary="Search for repositories on GitHub."
+                            img={githubDashboard}
+                            demoLink="https://artsiom-voitas.github.io/github-dashboard/#/"
+                            githubLink="https://github.com/artsiom-voitas/github-dashboard"
                         />
                         <Project
                             type="Responsive landing"
@@ -86,13 +96,20 @@ function Projects() {
                             demoLink="https://artsiom-voitas.github.io/webovio/build/"
                             githubLink="https://github.com/artsiom-voitas/webovio/"
                         />
-
                         <Project
                             type="Responsive landing"
                             title="Rayal Park"
                             img={rayalPark}
                             demoLink="https://artsiom-voitas.github.io/rayal-park/"
                             githubLink="https://github.com/artsiom-voitas/rayal-park/"
+                        />
+                        <FeaturedProject
+                            type="Vanila JavaScipt"
+                            title="AV Store"
+                            summary="Contents information about clients and location of stores."
+                            img={avStore}
+                            demoLink="https://artsiom-voitas.github.io/av-store/dist/index.html"
+                            githubLink="https://github.com/artsiom-voitas/av-store/"
                         />
                         <Project
                             type="Landing"
